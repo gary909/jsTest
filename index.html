@@ -8,9 +8,15 @@
     <script src="index.js"></script>
     <title>JsTest</title>
 </head>
-<body>
+<body onload="hide('box1');">
     <h1>A Very Quick JavaScript Test</h1>
     <br>
     <p onclick="welcome();">Click Here</p>
+
+    <br>
+
+    <h2 onclick="show('box1');" >Click Here</h2>
+    <div id="box1" onclick="hide('box1');">Click to close</div>
+    
 </body>
 </html>
